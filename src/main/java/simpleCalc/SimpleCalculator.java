@@ -31,4 +31,9 @@ public class SimpleCalculator
 	{
 		return result;
 	}
+	
+	public void div(int x, int y)
+	{
+		result= x/y;
+	}
 }
