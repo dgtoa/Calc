@@ -26,14 +26,16 @@ public class SimpleCalculator
 		else
 			System.out.println("분모가 0입니다.");
 	}
+	
+	public void inc(int x)
+	{
+			result +=x;
+	}
 		
 	public int getResult()
 	{
 		return result;
 	}
 	
-	public void div(int x, int y)
-	{
-		result= x/y;
-	}
+
 }

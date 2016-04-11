@@ -45,4 +45,15 @@ public class SimpleCalculatorTest {
 		assertEquals(5, calc.getResult());
 		//	fail("Not yet implemented");
 	}
+
+	@Test
+	public void testInc() 
+	{
+		SimpleCalculator calc= new SimpleCalculator();
+		calc.inc(100);
+		assertEquals(100, calc.getResult());
+		calc.inc(200);
+		assertEquals(300, calc.getResult());
+		//	fail("Not yet implemented");
+	}
 }
