@@ -2,7 +2,7 @@ package simpleCalc;
 
 import static org.junit.Assert.*;
 
-import org.junit.Test;                        //이거 두개 추가시켜요
+import org.junit.Test;
 
 public class SimpleCalculatorTest {
 
@@ -23,4 +23,11 @@ public class SimpleCalculatorTest {
 		//	fail("Not yet implemented");
 	}
 
+	public void testDiv() 
+	{
+		SimpleCalculator calc= new SimpleCalculator();
+		calc.sub(100,20);
+		assertEquals(5, calc.getResult());
+		//	fail("Not yet implemented");
+	}
 }
